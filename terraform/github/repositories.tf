@@ -26,6 +26,7 @@ locals {
       "camunda-bpm-mail",
       "camunda-bpm-mockito",
       "dmn-scala",
+      "zeebe-workflow-generator",
     ],
   }
 }
