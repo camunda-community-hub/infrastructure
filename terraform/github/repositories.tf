@@ -17,9 +17,6 @@ locals {
       "camunda-engine-cassandra",
       "camunda-external-task-client-spring-boot",
       "camunda-rest-client-spring-boot",
-      "cloud-connect-modeler-plugin",
-      "et",
-      "iam",
       "infra-github-demo",
     ],
     camunda-community-hub = [
