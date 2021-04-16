@@ -24,6 +24,7 @@ locals {
       "camunda-bpm-mockito",
       "dmn-scala",
       "zeebe-process-generator",
+      "zeeqs"
     ],
   }
 }
