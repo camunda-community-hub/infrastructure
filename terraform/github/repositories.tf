@@ -14,7 +14,6 @@ locals {
       "camunda-bpm-swagger",
       "camunda-bpm-wildfly-swarm",
       "camunda-dmn-xlsx",
-      "camunda-engine-cassandra",
       "camunda-external-task-client-spring-boot",
       "camunda-rest-client-spring-boot",
       "infra-github-demo",
@@ -22,6 +21,7 @@ locals {
     camunda-community-hub = [
       "camunda-bpm-mail",
       "camunda-bpm-mockito",
+      "camunda-engine-cassandra",
       "dmn-scala",
       "zeebe-process-generator",
       "zeeqs"
