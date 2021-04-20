@@ -10,7 +10,6 @@ locals {
       "camunda-bpm-migration",
       "camunda-bpm-platform-osgi",
       "camunda-bpm-process-test-coverage",
-      "camunda-bpm-reactor",
       "camunda-bpm-swagger",
       "camunda-bpm-wildfly-swarm",
       "camunda-dmn-xlsx",
@@ -21,6 +20,7 @@ locals {
     camunda-community-hub = [
       "camunda-bpm-mail",
       "camunda-bpm-mockito",
+      "camunda-bpm-reactor",
       "camunda-engine-cassandra",
       "dmn-scala",
       "zeebe-process-generator",
