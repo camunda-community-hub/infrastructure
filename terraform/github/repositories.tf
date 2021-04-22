@@ -11,7 +11,6 @@ locals {
       "camunda-bpm-platform-osgi",
       "camunda-bpm-process-test-coverage",
       "camunda-bpm-swagger",
-      "camunda-bpm-wildfly-swarm",
       "camunda-dmn-xlsx",
       "camunda-external-task-client-spring-boot",
       "camunda-rest-client-spring-boot",
