@@ -1,26 +1,26 @@
 locals {
   repositories = {
     camunda = [
-      "camunda-acm-plugin",
-      "camunda-bpm-custom-batch",
       "camunda-bpm-graphql",
       "camunda-bpm-grpc-external-task",
       "camunda-bpm-identity-keycloak",
       "camunda-bpm-junit5",
-      "camunda-bpm-migration",
       "camunda-bpm-platform-osgi",
       "camunda-bpm-process-test-coverage",
       "camunda-bpm-swagger",
       "camunda-dmn-xlsx",
       "camunda-external-task-client-spring-boot",
-      "camunda-rest-client-spring-boot",
       "infra-github-demo",
     ],
     camunda-community-hub = [
+      "camunda-acm-plugin",
+      "camunda-bpm-custom-batch",
       "camunda-bpm-mail",
+      "camunda-bpm-migration",
       "camunda-bpm-mockito",
       "camunda-bpm-reactor",
       "camunda-engine-cassandra",
+      "camunda-rest-client-spring-boot",
       "dmn-scala",
       "zeebe-process-generator",
       "zeeqs"
