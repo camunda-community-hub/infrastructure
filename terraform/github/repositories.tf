@@ -4,7 +4,6 @@ locals {
       "camunda-bpm-graphql",
       "camunda-bpm-grpc-external-task",
       "camunda-bpm-identity-keycloak",
-      "camunda-bpm-junit5",
       "camunda-bpm-platform-osgi",
       "camunda-bpm-process-test-coverage",
       "camunda-bpm-swagger",
@@ -15,6 +14,7 @@ locals {
     camunda-community-hub = [
       "camunda-acm-plugin",
       "camunda-bpm-custom-batch",
+      "camunda-bpm-junit5",
       "camunda-bpm-mail",
       "camunda-bpm-migration",
       "camunda-bpm-mockito",
