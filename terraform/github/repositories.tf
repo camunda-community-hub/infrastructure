@@ -24,6 +24,7 @@ locals {
       "dmn-scala",
       "zeebe-process-generator",
       "zeeqs"
+      "camunda-bpm-assert-scenario"
     ],
   }
 }
