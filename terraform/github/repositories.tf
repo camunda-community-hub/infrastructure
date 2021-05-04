@@ -4,7 +4,6 @@ locals {
       "camunda-bpm-graphql",
       "camunda-bpm-grpc-external-task",
       "camunda-bpm-identity-keycloak",
-      "camunda-bpm-platform-osgi",
       "camunda-bpm-swagger",
       "camunda-dmn-xlsx",
       "camunda-external-task-client-spring-boot",
@@ -17,14 +16,15 @@ locals {
       "camunda-bpm-mail",
       "camunda-bpm-migration",
       "camunda-bpm-mockito",
+      "camunda-bpm-platform-osgi",
       "camunda-bpm-process-test-coverage",
       "camunda-bpm-reactor",
       "camunda-engine-cassandra",
       "camunda-rest-client-spring-boot",
       "dmn-scala",
       "zeebe-process-generator",
-      "zeeqs"
-      "camunda-bpm-assert-scenario"
+      "zeeqs",
+      "camunda-bpm-assert-scenario",
     ],
   }
 }
