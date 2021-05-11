@@ -25,6 +25,15 @@ locals {
       "zeebe-process-generator",
       "zeeqs",
       "camunda-bpm-assert-scenario",
+      "zeebe-exporter-protobuf",
+      "zeebe-test-container",
+      "zeebe-simple-monitor",
+      "zeebe-hazelcast-exporter",
+      "zeebe-simple-tasklist",
+      "bpmn-spec",
+      "zeebe-http-worker",
+      "zeebe-script-worker",
+      "zeebe-dmn-worker"
     ],
   }
 }
