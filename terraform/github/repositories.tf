@@ -36,7 +36,8 @@ locals {
       "bpmn-spec",
       "zeebe-http-worker",
       "zeebe-script-worker",
-      "zeebe-dmn-worker"
+      "zeebe-dmn-worker",
+      "zeebe-worker-java-testutils"
     ],
   }
 }
