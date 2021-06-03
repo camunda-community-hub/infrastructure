@@ -2,7 +2,6 @@ locals {
   repositories = {
     camunda = [
       "camunda-bpm-grpc-external-task",
-      "camunda-bpm-identity-keycloak",
       "camunda-bpm-swagger",
       "camunda-dmn-xlsx",
       "camunda-external-task-client-spring-boot",
@@ -12,6 +11,7 @@ locals {
       "camunda-acm-plugin",
       "camunda-bpm-custom-batch",
       "camunda-bpm-graphql",
+      "camunda-bpm-identity-keycloak",
       "camunda-bpm-junit5",
       "camunda-bpm-mail",
       "camunda-bpm-migration",
