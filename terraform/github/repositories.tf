@@ -37,11 +37,11 @@ locals {
       "zeebe-http-worker",
       "zeebe-script-worker",
       "zeebe-dmn-worker",
-      "zeebe-worker-java-testutils"
-      "camunda-modeler-plugin-usertask-generatedform-preview"
-      "pmn-js-plugin-rename-technical-ids"
-      "bpmn-js-plugin-reduced-palette"
-      "bpmn-js-plugin-color-picker"
+      "zeebe-worker-java-testutils",
+      "camunda-modeler-plugin-usertask-generatedform-preview",
+      "pmn-js-plugin-rename-technical-ids",
+      "bpmn-js-plugin-reduced-palette",
+      "bpmn-js-plugin-color-picker",
     ],
   }
 }
