@@ -38,7 +38,7 @@ locals {
       "zeebe-script-worker",
       "zeebe-dmn-worker",
       "zeebe-worker-java-testutils",
-      "kafka-connect-zeebe"
+      "kafka-connect-zeebe",
     ],
   }
 }
