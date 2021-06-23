@@ -21,6 +21,7 @@ locals {
       "camunda-bpm-reactor",
       "camunda-engine-cassandra",
       "camunda-rest-client-spring-boot",
+      "community-hub-release-parent",
       "dmn-scala",
       "zeebe-process-generator",
       "zeeqs",
