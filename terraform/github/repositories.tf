@@ -40,6 +40,7 @@ locals {
       "zeebe-dmn-worker",
       "zeebe-worker-java-testutils",
       "kafka-connect-zeebe",
+      "bpmn-driven-testing",
     ],
   }
 }
