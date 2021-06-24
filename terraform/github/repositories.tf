@@ -2,7 +2,6 @@ locals {
   repositories = {
     camunda = [
       "camunda-bpm-swagger",
-      "camunda-dmn-xlsx",
       "camunda-external-task-client-spring-boot",
       "infra-github-demo",
     ],
@@ -19,6 +18,7 @@ locals {
       "camunda-bpm-platform-osgi",
       "camunda-bpm-process-test-coverage",
       "camunda-bpm-reactor",
+      "camunda-dmn-xlsx",
       "camunda-engine-cassandra",
       "camunda-rest-client-spring-boot",
       "community-hub-release-parent",
