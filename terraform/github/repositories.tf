@@ -41,6 +41,7 @@ locals {
       "zeebe-worker-java-testutils",
       "kafka-connect-zeebe",
       "bpmn-driven-testing",
+      "eze",
     ],
   }
 }
