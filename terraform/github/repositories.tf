@@ -3,7 +3,6 @@ locals {
     camunda = [
       "camunda-bpm-swagger",
       "camunda-external-task-client-spring-boot",
-      "infra-github-demo",
     ],
     camunda-community-hub = [
       "camunda-acm-plugin",
@@ -49,8 +48,12 @@ data "vault_generic_secret" "camunda_community_hub" {
   path = "secret/common/github.com/actions/camunda-community-hub"
 }
 
-data "vault_generic_secret" "github_credentials" {
+data "vault_generic_secret" "github_camunda_app" {
   path = "secret/common/github.com/camunda"
+}
+
+data "vault_generic_secret" "github_community_hub_app" {
+  path = "secret/common/github.com/camunda-community-hub"
 }
 
 module "community_hub_secrets" {
