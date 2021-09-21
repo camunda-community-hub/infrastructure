@@ -41,6 +41,7 @@ locals {
       "kafka-connect-zeebe",
       "bpmn-driven-testing",
       "eze",
+      "camunda-platform-to-cloud-migration"
     ],
   }
 }
