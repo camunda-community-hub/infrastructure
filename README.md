@@ -13,5 +13,6 @@ This repository holds infrastructure configuration for the `camunda-community-hu
 3. Ensure "Create a **new branch** for this commit and start a pull request" is selected. Enter a meaningful branch name.
 4. Click on `Propose Changes`.
 5. Assign the Pull Request for review by https://github.com/celanthe
+6. After positive readme the Camunda infrastructure team needs to merge the PR, as they also add necessary credentials to the repo in this step.
 
 ![image](https://user-images.githubusercontent.com/175639/113735029-21ec6e80-96fc-11eb-8aa9-8da1473411bf.png)
