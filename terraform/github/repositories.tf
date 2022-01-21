@@ -42,6 +42,8 @@ locals {
       "bpmn-driven-testing",
       "eze",
       "camunda-platform-to-cloud-migration",
+      "spring-zeebe",
+      "camunda-engine-rest-client-java",
       "camunda-bpm-camel",
       "spring-zeebe"
     ],
