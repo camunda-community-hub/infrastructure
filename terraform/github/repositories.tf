@@ -45,6 +45,7 @@ locals {
       "spring-zeebe",
       "camunda-engine-rest-client-java",
       "camunda-bpm-camel",
+      "camunda-platform-graphql",
       "spring-zeebe"
     ],
   }
