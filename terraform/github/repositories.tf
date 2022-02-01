@@ -46,7 +46,7 @@ locals {
       "camunda-engine-rest-client-java",
       "camunda-bpm-camel",
       "camunda-platform-graphql",
-      "zeebe-cloud-events-router",
+      "zeebe-cloudevents-router",
       "spring-zeebe"
     ],
   }
