@@ -5,6 +5,7 @@ provider "registry.terraform.io/hashicorp/vault" {
   version     = "2.23.0"
   constraints = "~> 2.23.0"
   hashes = [
+    "h1:CD/AIcK8YTFxhWJWW9LFzWk04L8IIw0KcOO1zzgu7F4=",
     "h1:Y59jKh4TKuQIitajzs6TV8UJKfnCbb84B0M/e0L6Xms=",
     "zh:02517cc26a459983154aef6b838e8a04d26d043e90293bc1fda411fcee618836",
     "zh:0e71e789b73b31a0ac68015e93a2dc8584c0ec8f4554ec153e2f9cafb79e88e0",
@@ -25,6 +26,7 @@ provider "registry.terraform.io/integrations/github" {
   constraints = "~> 4.14.0"
   hashes = [
     "h1:CvPZLHgMA4ReLeF0iJc11gsD/r7chkZdW89VkJml0HU=",
+    "h1:GIBd5BCbId37l9knEcP9k4NwOVrfJMToKkuSZ5kUEX0=",
     "zh:1c675ce700c0ebfc7ef437443fb25f912a62717b7bca60071bf9733d23db9576",
     "zh:242362cc1b4932b80333f3f9b4dab6edfc84fd4cb9811bad81872939cf088b5a",
     "zh:25bc76d0e8cce0b8bcee45a88810d655e1253c9001533b087f57fd223dc4881c",

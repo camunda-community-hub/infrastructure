@@ -4,9 +4,9 @@ data "github_repository" "repo" {
 }
 
 resource "github_actions_organization_secret" "secret_entry" {
-  for_each                = var.secrets
-  plaintext_value         = contains(var.base64_encoded_secrets, each.key) ? base64decode(each.value) : each.value
-  secret_name             = each.key
+  for_each                = nonsensitive(toset(keys(var.secrets)))
+  plaintext_value         = contains(var.base64_encoded_secrets, each.value) ? base64decode(var.secrets[each.value]) : var.secrets[each.value]
+  secret_name             = each.value
   visibility              = "selected"
   selected_repository_ids = [for r in data.github_repository.repo : r.repo_id]
 }
