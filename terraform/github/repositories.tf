@@ -49,6 +49,7 @@ locals {
       "zeebe-cloudevents-router",
       "spring-zeebe",
       "camunda-cloud-benchmark",
+      "camunda-tasklist-client-java"
     ],
   }
 }
