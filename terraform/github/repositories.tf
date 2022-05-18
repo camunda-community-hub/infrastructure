@@ -50,6 +50,7 @@ locals {
       "spring-zeebe",
       "camunda-cloud-benchmark",
       "zeebe-keycloak-interceptor",
+      "camunda-tasklist-client-java",
     ],
   }
 }
