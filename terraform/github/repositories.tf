@@ -51,6 +51,7 @@ locals {
       "camunda-cloud-benchmark",
       "zeebe-keycloak-interceptor",
       "camunda-tasklist-client-java",
+      "camunda-operate-client-java",
     ],
   }
 }
