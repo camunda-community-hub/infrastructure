@@ -60,11 +60,11 @@ data "vault_generic_secret" "camunda_community_hub" {
 }
 
 data "vault_generic_secret" "github_camunda_app" {
-  path = "secret/common/github.com/camunda"
+  path = "secret/github.com/apps/camunda"
 }
 
 data "vault_generic_secret" "github_community_hub_app" {
-  path = "secret/common/github.com/camunda-community-hub"
+  path = "secret/github.com/apps/camunda-community-hub"
 }
 
 module "community_hub_secrets" {
