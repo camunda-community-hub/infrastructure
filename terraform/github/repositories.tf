@@ -56,7 +56,7 @@ locals {
   }
 }
 data "vault_generic_secret" "camunda_community_hub" {
-  path = "secret/common/github.com/actions/camunda-community-hub"
+  path = "secret/github.com/organizations/camunda-community-hub"
 }
 
 data "vault_generic_secret" "github_camunda_app" {
