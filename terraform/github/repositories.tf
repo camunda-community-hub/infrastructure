@@ -52,6 +52,7 @@ locals {
       "zeebe-keycloak-interceptor",
       "camunda-tasklist-client-java",
       "camunda-operate-client-java",
+      "camunda-google-ws-java"
     ],
   }
 }
