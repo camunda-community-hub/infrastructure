@@ -47,7 +47,6 @@ locals {
       "camunda-bpm-camel",
       "camunda-platform-graphql",
       "zeebe-cloudevents-router",
-      "spring-zeebe",
       "camunda-cloud-benchmark",
       "zeebe-keycloak-interceptor",
       "camunda-tasklist-client-java",
