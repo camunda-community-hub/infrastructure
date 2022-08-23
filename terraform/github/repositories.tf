@@ -19,7 +19,7 @@ locals {
       "camunda-bpm-reactor",
       "camunda-dmn-xlsx",
       "camunda-engine-cassandra",
-      "camunda-rest-client-spring-boot",
+      "camunda-platform-7-rest-client-spring-boot",
       "community-hub-release-parent",
       "dmn-scala",
       "zeebe-process-generator",
