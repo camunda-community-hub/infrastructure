@@ -11,7 +11,7 @@ locals {
       "camunda-bpm-grpc-external-task",
       "camunda-bpm-identity-keycloak",
       "camunda-bpm-junit5",
-      "camunda-bpm-mail",
+      "camunda-platform-7-mail",
       "camunda-bpm-migration",
       "camunda-bpm-mockito",
       "camunda-bpm-platform-osgi",
