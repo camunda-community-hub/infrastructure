@@ -13,7 +13,7 @@ locals {
       "camunda-bpm-junit5",
       "camunda-platform-7-mail",
       "camunda-bpm-migration",
-      "camunda-bpm-mockito",
+      "camunda-platform-7-mockito",
       "camunda-bpm-platform-osgi",
       "camunda-bpm-process-test-coverage",
       "camunda-bpm-reactor",
