@@ -52,7 +52,8 @@ locals {
       "camunda-tasklist-client-java",
       "camunda-operate-client-java",
       "camunda-google-ws-java",
-      "zeebe-embedded-job-worker"
+      "zeebe-embedded-job-worker",
+      "zeebe-play"
     ],
   }
 }
