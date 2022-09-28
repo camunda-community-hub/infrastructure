@@ -53,7 +53,8 @@ locals {
       "camunda-operate-client-java",
       "camunda-google-ws-java",
       "zeebe-embedded-job-worker",
-      "zeebe-play"
+      "zeebe-play",
+      "thymeleaf-feel"
     ],
   }
 }
