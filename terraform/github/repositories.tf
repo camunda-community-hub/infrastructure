@@ -54,7 +54,8 @@ locals {
       "camunda-google-ws-java",
       "zeebe-embedded-job-worker",
       "zeebe-play",
-      "thymeleaf-feel"
+      "thymeleaf-feel",
+      "zeebe-cherry-framework"
     ],
   }
 }
