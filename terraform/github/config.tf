@@ -32,7 +32,6 @@ provider "vault" {
       secret_id = var.vault_login_approle_secret_id
     }
   }
-
 }
 
 provider "github" {

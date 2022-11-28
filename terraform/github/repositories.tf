@@ -59,6 +59,7 @@ locals {
     ],
   }
 }
+
 data "vault_generic_secret" "camunda_community_hub" {
   path = "secret/github.com/organizations/camunda-community-hub"
 }
