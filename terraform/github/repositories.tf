@@ -3,6 +3,7 @@ locals {
     camunda = [
       "camunda-bpm-swagger",
       "camunda-external-task-client-spring-boot",
+      "dmn-scala",
     ],
     camunda-community-hub = [
       "bpmn-driven-testing",
@@ -32,7 +33,6 @@ locals {
       "camunda-platform-to-cloud-migration",
       "camunda-tasklist-client-java",
       "community-hub-release-parent",
-      "dmn-scala",
       "eze",
       "kafka-connect-zeebe",
       "spring-zeebe",
