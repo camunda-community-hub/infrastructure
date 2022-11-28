@@ -1,8 +1,6 @@
 locals {
   repositories = {
     camunda = [
-      "camunda-bpm-swagger",
-      "camunda-external-task-client-spring-boot",
       "dmn-scala",
     ],
     camunda-community-hub = [
