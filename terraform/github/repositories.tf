@@ -49,6 +49,7 @@ locals {
       "zeebe-test-container",
       "zeebe-worker-java-testutils",
       "zeeqs",
+      "camunda-8-connector-officetopdf",
     ],
   }
 }
