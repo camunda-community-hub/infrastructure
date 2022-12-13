@@ -6,6 +6,7 @@ locals {
     camunda-community-hub = [
       "bpmn-driven-testing",
       "bpmn-spec",
+      "camunda-8-connector-officetopdf",
       "camunda-bpm-assert-scenario",
       "camunda-bpm-camel",
       "camunda-bpm-custom-batch",
@@ -49,7 +50,6 @@ locals {
       "zeebe-test-container",
       "zeebe-worker-java-testutils",
       "zeeqs",
-      "camunda-8-connector-officetopdf",
     ],
   }
 }
