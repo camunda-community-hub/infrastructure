@@ -32,7 +32,7 @@ locals {
       "kafka-connect-zeebe",
       "spring-zeebe",
       "thymeleaf-feel",	  
-	  "zebee-cherry-filestorage",
+      "zebee-cherry-filestorage",
       "zeebe-cherry-framework",
       "zeebe-cloudevents-router",
       "zeebe-debug-exporter",
