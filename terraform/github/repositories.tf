@@ -27,6 +27,7 @@ locals {
       "camunda-platform-to-cloud-migration",
       "camunda-tasklist-client-java",
       "community-hub-release-parent",
+      "coworker",
       "eze",
       "kafka-connect-zeebe",
       "spring-zeebe",
