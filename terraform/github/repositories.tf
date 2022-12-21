@@ -29,6 +29,7 @@ locals {
       "community-hub-release-parent",
       "eze",
       "kafka-connect-zeebe",
+      "kotlin-coworker",
       "spring-zeebe",
       "thymeleaf-feel",
       "zeebe-cherry-framework",
