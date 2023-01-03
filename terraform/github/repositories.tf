@@ -33,7 +33,7 @@ locals {
       "spring-zeebe",
       "thymeleaf-feel",
       "zebee-cherry-filestorage",
-      "zeebe-cherry-framework",      
+      "zeebe-cherry-framework",
       "zeebe-cloudevents-router",
       "zeebe-debug-exporter",
       "zeebe-dmn-worker",
