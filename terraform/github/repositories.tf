@@ -6,6 +6,7 @@ locals {
     camunda-community-hub = [
       "bpmn-driven-testing",
       "bpmn-spec",
+      "camunda-8-connector-officetopdf",
       "camunda-bpm-assert-scenario",
       "camunda-bpm-camel",
       "camunda-bpm-custom-batch",
