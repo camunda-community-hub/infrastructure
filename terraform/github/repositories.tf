@@ -47,6 +47,7 @@ locals {
       "zeebe-keycloak-interceptor",
       "zeebe-play",
       "zeebe-process-generator",
+      "zeebe-redis-exporter",
       "zeebe-script-worker",
       "zeebe-simple-monitor",
       "zeebe-simple-tasklist",
