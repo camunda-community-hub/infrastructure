@@ -54,6 +54,8 @@ locals {
       "zeebe-test-container",
       "zeebe-worker-java-testutils",
       "zeeqs",
+      "vanillabp-camunda7-adapter",
+      "vanillabp-camunda8-adapter",
     ],
   }
 }
