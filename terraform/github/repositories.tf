@@ -56,6 +56,7 @@ locals {
       "zeeqs",
       "vanillabp-camunda7-adapter",
       "vanillabp-camunda8-adapter",
+      "community-hub-extension-example",
     ],
   }
 }
