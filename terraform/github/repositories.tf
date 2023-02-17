@@ -58,6 +58,7 @@ locals {
       "vanillabp-camunda8-adapter",
       "community-hub-extension-example",
       "spring-zeebe-connector-template-generator",
+      "message-correlator",
     ],
   }
 }
