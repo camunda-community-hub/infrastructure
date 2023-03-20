@@ -31,6 +31,7 @@ locals {
       "eze",
       "kafka-connect-zeebe",
       "kotlin-coworker",
+      "process-execution-automator",
       "spring-zeebe",
       "thymeleaf-feel",
       "zebee-cherry-filestorage",
