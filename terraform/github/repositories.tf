@@ -61,7 +61,8 @@ locals {
       "community-hub-extension-example",
       "spring-zeebe-connector-template-generator",
       "message-correlator",
-      "internal-task-handler-camunda-7"
+      "internal-task-handler-camunda-7",
+      "camunda-modeler-template-generator"
     ],
   }
 }
