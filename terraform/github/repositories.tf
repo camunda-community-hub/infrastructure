@@ -23,6 +23,7 @@ locals {
       "camunda-operate-client-java",
       "camunda-platform-7-mail",
       "camunda-platform-7-mockito",
+      "camunda-platform-7-rest-client-java",
       "camunda-platform-7-rest-client-spring-boot",
       "camunda-platform-graphql",
       "camunda-platform-to-cloud-migration",
