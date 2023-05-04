@@ -63,7 +63,8 @@ locals {
       "spring-zeebe-connector-template-generator",
       "message-correlator",
       "internal-task-handler-camunda-7",
-      "camunda-modeler-template-generator"
+      "camunda-modeler-template-generator",
+      "feel-scala-playground"
     ],
   }
 }
