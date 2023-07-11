@@ -64,7 +64,8 @@ locals {
       "message-correlator",
       "internal-task-handler-camunda-7",
       "camunda-modeler-template-generator",
-      "feel-scala-playground"
+      "feel-scala-playground",
+      "web-modeler-java-client"
     ],
   }
 }
