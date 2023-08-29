@@ -5,6 +5,7 @@ locals {
     ],
     camunda-community-hub = [
       "bpmn-driven-testing",
+      "camunda-7-template-engines-jsr223",
       "camunda-8-connector-pdf",
       "camunda-8-connector-officetopdf",
       "camunda-bpm-assert-scenario",
