@@ -4,7 +4,7 @@ This repository holds infrastructure configuration for the `camunda-community-hu
 
 ## Contents
 
-- `terraform/github` - Terraform code for configuring repositories
+- `terraform/github` - Terraform code for configuring repositories.
 
 ## Use case: Onboarding a new Community Hub repository
 
