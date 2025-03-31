@@ -68,7 +68,8 @@ locals {
       "feel-scala-playground",
       "web-modeler-java-client",
       "camunda-console-client-java",
-      "camunda-7-to-8-code-conversion"
+      "camunda-7-to-8-code-conversion",
+      "camunda-7-to-8-migration-analyzer"
     ],
   }
 }
