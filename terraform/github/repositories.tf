@@ -61,6 +61,7 @@ locals {
       "vanillabp-camunda7-adapter",
       "vanillabp-camunda8-adapter",
       "community-hub-extension-example",
+      "community-hub-infra-833-test",
       "spring-zeebe-connector-template-generator",
       "message-correlator",
       "internal-task-handler-camunda-7",
