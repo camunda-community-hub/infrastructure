@@ -1,18 +1,21 @@
 # Infrastructure Repository for `camunda-community-hub`
 
-This repository holds infrastructure configuration for the `camunda-community-hub` organization.
+This repository holds the public interface for infrastructure management of the `camunda-community-hub` organization.
+
+> [!IMPORTANT]
+> The infrastructure code has been migrated to a private repository as part of an organizational restructuring. This public repository now serves only as the community-facing interface for onboarding and managing repositories.
 
 ## Contents
 
-- `terraform/github` - Terraform code for configuring repositories.
+- `.github/ISSUE_TEMPLATE/` - Issue templates for repository onboarding requests
+- `managed-repositories.yml` - Auto-synced by internal systems to surface the repositories currently onboarded - automatically updated, never edit manually
 
-## Use case: Onboarding a new Community Hub repository
+## Onboarding a New Community Hub Repository
 
-1. Edit [`terraform/github/repositories.tf`](https://github.com/camunda-community-hub/infrastructure/edit/master/terraform/github/repositories.tf) to add a new string entry under `locals` -> `repositories` -> `camunda-community-hub`.
-2. Enter a meaningful commit message, like `chore(terraform): add new repository`.
-3. Ensure **Create a new branch for this commit and start a pull request** is selected. Enter a meaningful branch name.
-4. Click **Propose Changes**.
-5. Notify the Camunda team that your pull request is ready for review by _tagging_ @camunda-community-hub/devrel in a comment.
-6. After the PR is approved by the DevRel team, the Camunda infrastructure team will merge the PR, as they add the necessary credentials to the repo in this step.
+To add a new repository to the Camunda Community Hub:
 
-![image](https://user-images.githubusercontent.com/175639/113735029-21ec6e80-96fc-11eb-8aa9-8da1473411bf.png)
+1. **Check Repository List**: First, verify your repository is not already onboarded by checking `managed-repositories.yml`
+2. **Create an Issue**: Use the [Repository Onboarding Request](../../issues/new?template=repository-onboarding.md) template
+3. **Provide Required Information**: Fill out all the requested details about your repository
+4. **Submit and Wait**: We will review your request and handle the infrastructure setup
+5. **Confirmation**: Once approved and configured, your repository will be provisioned with the required credentials and listed in `managed-repositories.yml`.
