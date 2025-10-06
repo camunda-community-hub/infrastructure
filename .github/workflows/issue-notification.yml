@@ -28,36 +28,50 @@ jobs:
         with:
           payload: |
             {
-              "blocks": [
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*New Community Hub Repository Onboarding Request* submission from @${{ github.event.issue.user.login }}"
+                "blocks": [
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": "*New Community Hub Repository Onboarding Request* submission from `${{ github.event.issue.user.login }}`"
+                    }
+                  },
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": "*What's your team?*\nCamunda Community Hub"
+                    }
+                  },
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": "*Category of your request*\nPermissions & Access Control"
+                    }
+                  },
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": "*Details for your request*\nPlease review the following GitHub issue to onboard a new repository to the Camunda Community Hub and complete the necessary configurations.\nOnce the setup is done, kindly mark the GitHub issue as resolved and inform the requester."
+                    }
+                  },
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": "*GitHub Issue Title:* ${{ github.event.issue.title }}\n*View Issue:* <${{ github.event.issue.html_url }}|${{ github.event.issue.title }}>"
+                    }
+                  },
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": "*Action Required:* <${{ env.COMMUNITY_HUB_VAULT_SECRETS_TF_FILE }}|Add repository in infra-core>"
+                    }
                   }
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*Issue Title*\n${{ github.event.issue.title }}"
-                  }
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "<${{ github.event.issue.html_url }}|View Issue #${{ github.event.issue.number }}>"
-                  }
-                },
-                {
-                  "type": "section",
-                  "text": {
-                    "type": "mrkdwn",
-                    "text": "*Action Required*\n<${{ env.COMMUNITY_HUB_VAULT_SECRETS_TF_FILE }}|➜ Configure repository in infra-core>"
-                  }
-                }
-              ]
-            }
+                ]
+              }
           webhook: ${{ steps.secrets.outputs.SLACK_ASKINFRA_WEBHOOK_URL }}
           webhook-type: incoming-webhook
