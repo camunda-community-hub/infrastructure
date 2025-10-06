@@ -2,13 +2,14 @@
 name: Issue Notification
 
 on:
+  push:
   issues:
     types: [opened]
 
 jobs:
   notify-slack:
     runs-on: ubuntu-latest
-    if: contains(github.event.issue.labels.*.name, 'infrastructure/onboarding')
+    # if: contains(github.event.issue.labels.*.name, 'infrastructure/onboarding')
     steps:
       - name: Import Secrets
         id: secrets
@@ -20,7 +21,7 @@ jobs:
           secretId: ${{ secrets.VAULT_SECRET_ID }}
           exportEnv: false
           secrets: |
-            secret/data/products/infra/ci/camunda-community-hub/infrastructure SLACK_ASKINFRA_WEBHOOK_URL
+            secret/data/products/infra/ci/camunda-community-hub/infrastructure SLACK_INFRADRIBOTSTAGE_WEBHOOK_URL
       - name: Send Slack notification
         uses: slackapi/slack-github-action@v2
         env:
@@ -40,7 +41,28 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Issue Title*\n${{ github.event.issue.title }}"
+                    "text": "*What's your team?*\nCamunda Community Hub"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Category of your request*\nPermissions & Access Control"
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*Details for your request*\nPlease review the following GitHub issue to onboard a new repository to the Camunda Community Hub and complete the necessary configurations.\nOnce the setup is done, kindly mark the GitHub issue as resolved and inform the requester."
+                  }
+                },
+                {
+                  "type": "section",
+                  "text": {
+                    "type": "mrkdwn",
+                    "text": "*GitHub Issue Title*\n${{ github.event.issue.title }}"
                   }
                 },
                 {
@@ -54,10 +76,10 @@ jobs:
                   "type": "section",
                   "text": {
                     "type": "mrkdwn",
-                    "text": "*Action Required*\n<${{ env.COMMUNITY_HUB_VAULT_SECRETS_TF_FILE }}|➜ Configure repository in infra-core>"
+                    "text": "*Action Required*\n<${{ env.COMMUNITY_HUB_VAULT_SECRETS_TF_FILE }}|➜ Add repository in infra-core>"
                   }
                 }
               ]
             }
-          webhook: ${{ steps.secrets.outputs.SLACK_ASKINFRA_WEBHOOK_URL }}
+          webhook: ${{ steps.secrets.outputs.SLACK_INFRADRIBOTSTAGE_WEBHOOK_URL }}
           webhook-type: incoming-webhook
