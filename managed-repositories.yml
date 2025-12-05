@@ -25,6 +25,7 @@
   - "camunda-dmn-xlsx"
   - "camunda-engine-rest-client-java"
   - "camunda-google-ws-java"
+  - "camunda-hierarchy-aware-cleanup"
   - "camunda-modeler-template-generator"
   - "camunda-operate-client-java"
   - "camunda-platform-7-mail"
