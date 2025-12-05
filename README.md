@@ -25,5 +25,6 @@ To add a new repository to the Camunda Community Hub:
 5. **Confirmation**: Once approved and configured, your repository will be provisioned with the required credentials and listed in `managed-repositories.yml`.
 
 ### For the onboarding assignee
+
 If you are assigned to onboard a repository, please adapt the list [here](https://github.com/camunda/infra-core/blob/stage/terraform/github/prod/camunda-community-hub-vault-secrets.tf#L14).
 The change will be reflected automatically via GitOps in the public list here after the sync.
