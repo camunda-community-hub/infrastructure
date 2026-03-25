@@ -2,8 +2,6 @@
   "description": "List of repositories onboarded to Camunda Community Hub."
   "managed_by": "Camunda Infrastructure Team"
 "repositories":
-  "camunda":
-  - "dmn-scala"
   "camunda-community-hub":
   - "bpmn-driven-testing"
   - "camunda-7-template-engines-jsr223"
