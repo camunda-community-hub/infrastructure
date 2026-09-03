@@ -7,7 +7,6 @@
   - "camunda-7-template-engines-jsr223"
   - "camunda-7-to-8-code-conversion"
   - "camunda-7-to-8-migration-analyzer"
-  - "camunda-8-connector-calendaradvance"
   - "camunda-8-connector-officetopdf"
   - "camunda-8-connector-pdf"
   - "camunda-bpm-assert-scenario"
