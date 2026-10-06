@@ -16,6 +16,9 @@ For detailed information about the build and release processes, see the [Communi
 
 ## Onboarding a New Community Hub Repository
 
+> [!IMPORTANT]
+> All Community Hub repositories publish to [Maven Central](https://central.sonatype.com/) through a single, shared Camunda namespace and its publishing quota. Please keep your releases small (a few MiB of artifacts per release) and infrequent (fewer than 3 per month) so the quota stays available for every project in the organization.
+
 To add a new repository to the Camunda Community Hub:
 
 1. **Check Repository List**: First, verify your repository is not already onboarded by checking `managed-repositories.yml`
