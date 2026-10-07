@@ -11,6 +11,7 @@
   - "camunda-8-connector-involvedusers"
   - "camunda-8-connector-officetopdf"
   - "camunda-8-connector-pdf"
+  - "camunda-8-connector-usertask-update"
   - "camunda-bpm-assert-scenario"
   - "camunda-bpm-camel"
   - "camunda-bpm-custom-batch"
