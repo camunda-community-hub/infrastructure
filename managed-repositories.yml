@@ -48,6 +48,7 @@
   - "process-execution-automator"
   - "spring-zeebe-connector-template-generator"
   - "spring-zeebe"
+  - "terraform-provider-orchestration-cluster"
   - "thymeleaf-feel"
   - "vanillabp-camunda7-adapter"
   - "vanillabp-camunda8-adapter"
